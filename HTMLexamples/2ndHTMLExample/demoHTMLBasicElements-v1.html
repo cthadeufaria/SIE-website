@@ -1,0 +1,193 @@
+
+<!-- This is an HTML commnent that won't be displayed in the browser
+
+The HTML code below illustrates the most common HTML elements.
+
+In between the examples, some very simple exercises are also proposed.
+
+After this first contact with HTML, you should look extensively to the w3schools tutorial on HTML. 
+
+-->
+
+
+
+<html>
+<head>
+	<meta charset = "UTF-8">
+
+	<title>Basic HTML elements</title>
+
+	<style>td {border: 1px solid black;}</style>
+
+</head>
+
+
+<body>
+
+	<H1>DEMO BASIC HTML ELEMENTS</H1>
+	<br>
+	
+	<p>Here, you'll see how easy it is create a HTML page containing formatted text, links, images and tables. :-)!</p>
+	<br>
+
+	<H3>BASIC TEXT FORMATTING</H3>
+
+	<p>Let's start by basic text formatting commands.</p>
+
+	<p>This paragraph starts with regular font but includes bold and italic tags: <b>this part of the text is in bold</b> <i>and this is in italic</i>. From now on, we returned to regular text.</p>
+	
+	<p>We can also mix this commands as follows: lorem ipsum dolor sit amet, <b>consectetur adipiscing elit. <i>Etiam urna turpis, accumsan vitae pellentesque eu, <u>volutpat id lacus. </i>Orci varius natoque 
+	penatibus et magnis dis parturient montes, </b>nascetur ridiculus mus. Integer orci justo, dictum a justo et, facilisis mollis lorem. </u>Vestibulum ullamcorper aliquam magna id mollis.</p> 
+
+	<br>
+	<p>Note that <b>HTML ignores blank spaces and new lines</b> as in this example: Lorem ipsum         dolor sit       amet, consectetur 
+	
+	   adipiscing elit. In sit amet elit in velit accumsan finibus. 
+	   
+	   
+	   Pellentesque facilisis id orci vitae ultrices. Phasellus et velit.</p>
+
+	<p>You sould employ <b>br to change the line and nbsp to add a non-breaking space </b>as illustrated here: Lorem ipsum &nbsp&nbsp&nbsp&nbsp dolor sit &nbsp&nbsp amet, 
+	   consectetur <br> adipiscing elit. In sit amet elit in velit accumsan finibus. <br><br><br><br><br>Pellentesque facilisis id orci vitae ultrices. Phasellus et velit.</p>
+
+
+	<br>
+	<p>For other examples, look at <a href="https://www.w3schools.com/html/html_formatting.asp">w3schools :: basic text formatting</a></p>
+	<hr>
+	<br>
+
+
+	<H3>LINKS</H3>
+
+	<p>Now let'ts add a link (anchor) to the home page of our school: <a href="https://sigarra.up.pt/feup">FEUP</a></p>
+	
+	<p>If we want to open the link in a new tab, we should add the target property: <a href="https://sigarra.up.pt/feup" target="_blank">FEUP</a></p>
+	
+	<p>These are the links to your classmates:
+		<a href="https://sigarra.up.pt/feup/pt/fest_geral.fotos_estud_inscritos_list?pv_ocorrencia_id=516533&pv_dimensao_matriz=4">MEEC</a> and
+		<a href="https://sigarra.up.pt/feup/pt/fest_geral.fotos_estud_inscritos_list?pv_ocorrencia_id=520361&pv_dimensao_matriz=4">MEGI</a>
+	</p>
+
+	<H4>Exercise:<H4>
+	<p>Edit the ode here so that the fllowing links ro your personal page In Sigarra: <a add here the link>My home page at Sigarra</a></p> 
+
+	<br>
+	<p>For other examples on links, look at <a href="https://www.w3schools.com/html/html_links.asp">w3schools :: links</a></p>
+	<hr>
+	<br>
+
+
+	<H3>IMAGES</H3>
+
+	<p>Now let's add a first image to our page:<br><img src="campusfeup1.jpg"></img></p>
+
+	<p>We can also have an image as a link:<br><a href="https://sigarra.up.pt/feup"><img src="campusfeup1.jpg"></img></a></p>
+	
+	
+	<br>
+	<H4>As shown by the 3 folllowing 3 examples, you can use relative or absolute paths to the image source file</H4>
+	
+	<p>Relative path to a file in the same folder (see the code):<br><img src="campusfeup1.jpg"></img></p>
+	
+	<p>Relative path to a file in a sub folder (see the code):<br><img src="pictures/campusfeup2.jpg"></p>
+	
+	<p>Absolute path (see the code):<br><img src="https://sigarra.up.pt/feup/pt/imagens/slide/61"></p>
+	
+    <p>See more on HTML paths <a href="https://www.w3schools.com/html/html_filepaths.asp">here</a></p>
+	
+	<p>We can also add an alternative text to be displayed when the source file is not available:<br>
+	<img src="XXX.jpg" alt="image not available"></img>
+	
+	
+	<H4>Exercise:</H4>
+	<p>Add two images with your Sigarra's photo, one using a relative path and the other a absolute path.<br>  
+	Also add the alternative text to be displayed if the images can't be displayed.</p>
+	
+	<br><br>
+	<p>for other examples on images, look at <a href="https://www.w3schools.com/html/html_images.asp">w3schools :: images</a></p>
+	<hr>
+	<br>
+
+
+	<h3>LISTS</h3>
+
+	<p>Examples of ordered and unordered lists:</p>
+
+	<p>Ordered list:</p>
+	<ol>
+		<li>item 1</li>
+		<li>item 2</li>
+		<li>item 3</li>
+	</ol>
+
+	<p>Unordered list:</p>
+	<ul>
+		<li>item 1</li>
+		<li>item 2</li>
+		<li>item 3</li>
+	</ul>
+
+	<H4>Exercise:</H4>
+	<p>Edit an unordered list with a few items with square bullets (see <a href="https://www.w3schools.com/html/html_lists_unordered.asp">here</a> how to do it</p>
+
+
+	<br>
+	<p>for other examples on lists, look at <a href="https://www.w3schools.com/html/html_lists.asp">w3schools :: lists</a></p>
+	<hr>
+	<br>
+	
+
+	<H3>TABLES</H3>
+	
+	To close this introduction to the basic HTML elements, let's add another fundamental HTML element to our page:<br><br>
+	<table>
+		<tr>
+			<th>City</th><th>Country</th><th>Population</th>
+		</tr>
+		<tr>
+			<td>Lisbon</td><td>Portugal</td><td>1.2 million</td>
+		</tr>
+		<tr>
+			<td>Porto</td><td>Portugal</td><td>0.4 million</td>
+		</tr>
+		<tr>
+			<td>Paris</td><td>France</td><td>3.2 million</td>
+		</tr>
+		<tr>
+			<td>London</td><td>UK</td><td>6.2 million</td>
+		</tr>
+
+	</table>
+
+	<br>
+	<p>This other example shows an outer table with 1 row and 2 columns, and an inner table with 3 rows and 2 columns inside the 2nd column of the outer table:</p>
+	<table>
+	<tr>
+		<td>menu</td>
+		<td>
+			<table>
+			   <tr><td>topic 11</td><td>topic 12</td></tr>
+			   <tr><td>topic 21</td><td>topic 22</td></tr>
+			   <tr><td>topic 31</td><td>topic 32</td></tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<br>
+	<p>for other examples on tables, look at <a href="https://www.w3schools.com/html/html_tables.asp">w3schools :: tables</a></p>
+	<hr>
+	<br>
+	
+
+	<H3>COMPLEMENTARY TOPICS</H3>
+	
+	<p>Now that you are getting familiar with the basic HTML elements, take a look at these 2 complementary but important topics:</p>
+
+	<p><a href="https://www.w3schools.com/html/html_attributes.asp">HTML attributes</a></p>
+
+	<p><a href="https://www.w3schools.com/html/html_charset.asp">Charsets</a></p>
+
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+  
+    .flex-container {
+      display: flex;
+      background-color: lightgrey;
+      margin-top: 20px;
+      justify-content: center;
+	  flex-wrap:wrap;
+    }
+
+    .flex-element1 {
+      margin: 10px;
+      padding: 10px;
+      background-color: pink;
+      width: 250px; height: 150px;
+    }
+	
+    .div-image {
+      width: 250px; height: 150px;
+      background-position: center center;
+      background-size: cover;
+    }
+	
+
+	
+	
+
+  </style>
+</head>
+
+<body>
+
+   <h1>Displaying pictures</h1>
+
+   <br>
+   <h3>Displaying two pictures with img and width:250px and height:150px</h3> 
+   
+   <img src="pictures/terre.jpg"  style="width:250px; height:150px;"></img> 
+   <img src="pictures/forest.jpg" style="width:250px; height:150px;"></img> 
+   
+
+   <h3>Displaying the same two pictures with width:450px and height:150px</h3>
+
+   <img src="pictures/terre.jpg"  style="width:450px; height:150px;"></img> 
+   <img src="pictures/forest.jpg" style="width:450px; height:150px;"></img> 
+
+
+  <br><br>
+  <h3>Displaying the same pictures as the background of div's with width:450px and height:150px</h3>
+  <p>(Try: change the background-position property of the div's to: top center; top left; and bottom-right;</p>
+  
+  <div style="width:450px; height:150px; background-image: url('pictures/terre.jpg'); background-position: bottom center;"></div><br>
+  <div style="width:450px; height:150px; background-image: url('pictures/forest.jpg'); background-position: bottom center;"></div>
+
+
+  <br><br>
+  <h3>Repeat the picture to cover the container (default behavior)</h3>
+
+  <div style="width:440px; height:540px; border: 1px dashed; background-image: url('pictures/smallPic.jpg');">
+  </div>
+  
+  <br><br>
+  <h3>No repeat the picture</h3>
+
+  <div style="width:440px; height:540px; border: 1px dashed; background-image: url('pictures/smallPic.jpg'); background-repeat:no-repeat">
+  </div>
+  
+  <br><br>
+  <h3>Cover the background with the picture</h3>
+
+  <div style="width:440px; height:540px; border: 1px dashed; background-image: url('pictures/smallPic.jpg'); background-size:cover">
+  </div>
+  
+  
+  <br><br>
+  <h3>Displaying the pictures in a flex container</h1>
+
+  <div class="flex-container">
+
+    <div class="flex-element1">
+      <div class="div-image" style="background-image: url('pictures/forest.jpg');"></div>
+    </div>
+
+    <div class="flex-element1">
+      <div class="div-image" style="background-image: url('pictures/lights.jpg');"></div>
+    </div>
+
+    <div class="flex-element1">
+		<div class="div-image" style="background-image: url('pictures/terre.jpg');"></div>
+    </div>
+	
+    <div class="flex-element1">
+		<div class="div-image" style="background-image: url('pictures/mountains.jpg');"></div>
+    </div>
+	
+  </div>
+  
+  
+  
+</body>
+</html>

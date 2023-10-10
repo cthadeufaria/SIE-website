@@ -1,0 +1,190 @@
+<html>
+
+<head>
+  <style>
+
+	.catalogue {
+		display:flex;
+		justify-content:space-around;
+	}
+	
+    .catalogue-item {
+      display: flex;
+      background-color: lightgrey;
+      margin-top: 20px;
+      justify-content: center;
+      height:280px;
+      width: 400px;
+	  flex-wrap:wrap;
+	  flex-direction:column;
+    }
+
+    .element {
+      margin: 10px;
+      padding: 10px;
+      background-color: pink;
+      width: 200px; 
+    }
+
+    .image-element {
+      margin: 10px;
+      padding: 10px;
+      background-color: pink;
+      width: 200px; 
+    }
+
+    .link-element {
+      margin: 10px;
+      padding: 10px;
+      background-color: pink;
+      width: 200px; 
+	  display:flex; 
+	  display:flex; 
+	  justify-content:center;
+	  align-items:center;
+    }
+
+    .description-element {
+      margin: 10px;
+      padding: 10px;
+      background-color: pink;
+      width: 100px; 
+	  display:flex; 
+	  justify-content:center;
+	  align-items:center;
+	  height:200px;
+    }
+
+    .div-image {
+      width: 200px; height: 150px;
+      background-position: center center;
+      background-size: cover;
+	  display:flex;
+    }
+
+
+  </style>
+</head>
+
+<body>
+
+  <h1>Items catalogue</h1>
+
+  <br>
+  <h3>the 3 elements to include in each item of the catalogue</h3>
+
+  <div class="image-element">
+		<div class="div-image" style="background-image: url('pictures/runner.jpg');"></div>
+  </div>
+
+  <div class="link-element">
+		<a href="https://www.fe.up.pt">Link to item details</a>
+  </div>
+
+  <div class="description-element">
+		Edit description
+  </div>
+
+
+  <br>
+  <h3>An item of the catalogue</h3>
+  
+	<div class="catalogue-item">
+
+		<div class="image-element">
+			<div class="div-image" style="background-image: url('pictures/runner.jpg');"></div>
+		</div>
+
+		<div class="link-element">
+			<a href="https://www.fe.up.pt">Link to item details</a>
+		</div>
+
+		<div class="description-element">
+			Edit description
+		</div>
+
+	</div>
+
+
+
+	 <br>
+	 <h3>The catalogue with N items</h3>
+
+	 <div class="catalogue">
+	  
+		<!-- First item -->
+
+		<div class="catalogue-item">
+
+			<div class="image-element">
+				<div class="div-image" style="background-image: url('pictures/runner.jpg');"></div>
+			</div>
+
+			<div class="link-element">
+				<a href="https://www.fe.up.pt">Link to item details</a>
+			</div>
+
+			<div class="description-element">
+				Edit description
+			</div>
+
+		</div>
+			
+		<!-- Second item -->
+
+		<div class="catalogue-item">
+
+			<div class="image-element">
+				<div class="div-image" style="background-image: url('pictures/runner.jpg');"></div>
+			</div>
+
+			<div class="link-element">
+				<a href="https://www.fe.up.pt">Link to item details</a>
+			</div>
+
+			<div class="description-element">
+				Edit description
+			</div>
+
+		</div>
+		 
+		<!-- Third item -->
+
+		<div class="catalogue-item">
+
+			<div class="image-element">
+				<div class="div-image" style="background-image: url('pictures/runner.jpg');"></div>
+			</div>
+
+			<div class="link-element">
+				<a href="https://www.fe.up.pt">Link to item details</a>
+			</div>
+
+			<div class="description-element">
+				Edit description
+			</div>
+
+		</div>
+		 
+		<!-- Fourth item -->
+
+		<div class="catalogue-item">
+
+			<div class="image-element">
+				<div class="div-image" style="background-image: url('pictures/runner.jpg');"></div>
+			</div>
+
+			<div class="link-element">
+				<a href="https://www.fe.up.pt">Link to item details</a>
+			</div>
+
+			<div class="description-element">
+				Edit description
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
+</html>

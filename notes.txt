@@ -1,0 +1,2 @@
+1. logo: mais contraste. talvez fundo escuro com logo branca.
+2. botoes index.html: idem logo

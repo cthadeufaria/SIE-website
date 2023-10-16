@@ -1,0 +1,180 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'IM Fell English SC', serif;
+    color: bisque;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 500px; height: 300px;
+    margin: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#bg {
+    background-image: url('./imgs/main/psy2.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: scroll;
+}
+
+#false-bg {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 1000;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    z-index: 2;
+}
+
+.button-container.left {
+    justify-content: left;
+}
+
+.button-container.right {
+    justify-content: right;
+}
+
+.button-main {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.35);
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-main:hover {
+    background-color: black;
+    color: white;
+}
+
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button.settings{
+    background-image: url('./imgs/main/settings_button.png'); 
+    background-position: center center; 
+    background-size: cover;
+    height: 10px;
+    justify-content: end;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.flex-container-img {
+    display: flex;
+    background-color: transparent;
+    margin: 30px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex-element-img {
+    margin: 10px;
+    padding: 10px;
+    background-color: transparent;
+    width: 500px; height: 500px;
+}
+
+.div-img {
+    width: 400px; height: 450px;
+    margin: 50px;
+    border: 50px;
+    border-color: black;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(255,255,255,0.35);
+    flex-wrap: wrap;
+}
+
+.page-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 70px;
+}
+
+.page-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    top: 70px;
+}
+
+.settings-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: sticky;
+}
+
+.buying-options-box {
+    background-color: rgba(255,255,255,0.35);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: black;
+    padding: 100px;
+    margin: 100px;
+}

@@ -6,6 +6,10 @@ body, html {
     font-family: 'IM Fell English SC', serif;
 }
 
+p {
+    color:bisque;
+}
+
 #logo {
     display: flex;
     flex-direction: row;
@@ -13,7 +17,7 @@ body, html {
     align-content: center;
     justify-items: center;
     align-items: center;
-    width: 300px; height: 200px;
+    width: 500px; height: 300px;
     margin: 20px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -21,14 +25,14 @@ body, html {
 }
 
 #bg {
-    background-image: url('./imgs/main/psy.jpg');
+    background-image: url('./imgs/main/psy2.jpg');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     overflow: scroll;
 }
@@ -42,11 +46,6 @@ body, html {
     flex-direction: column;
     justify-content: center;
     align-items: space-around;
-}
-
-.p-container {
-    display: flex;
-
 }
 
 .menu-bar {
@@ -76,7 +75,7 @@ body, html {
     justify-content: right;
 }
 
-.button {
+.button-main {
     display: inline-block;
     margin: 10px;
     padding: 10px 20px;
@@ -90,8 +89,35 @@ body, html {
     cursor: pointer;
 }
 
-.button:hover {
+.button-main:hover {
     background-color: black;
+    color: white;
+}
+
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button.settings{
+    background-image: url('./imgs/main/settings_button.png'); 
+    background-position: center center; 
+    background-size: cover;
+    height: 10px;
+    justify-content: end;
+}
+
+.button:hover {
+    background-color: transparent;
     color: white;
 }
 
@@ -113,17 +139,14 @@ body, html {
 }
 
 .div-img {
-    width: 400px; height: 300px;
-    margin: 20px;
+    width: 400px; height: 450px;
+    margin: 50px;
+    border: 50px;
+    border-color: black;
     background-position: center;
     background-size: cover;
-}
-
-.settings-button {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    position: sticky;
+    background-color: rgba(255,255,255,0.35);
+    flex-wrap: wrap;
 }
 
 .page-horizontal {
@@ -137,6 +160,9 @@ body, html {
 .page-vertical {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
     position: relative;
     top: 70px;
 }

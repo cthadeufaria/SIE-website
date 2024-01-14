@@ -1,2 +1,50 @@
-1. logo: mais contraste. talvez fundo escuro com logo branca.
-2. botoes index.html: idem logo
+Trabalho 2:
+Relatório:
+
+0. Modelo de dados (design de base de dados)
+
+0.1. Modelo Swimlane
+
+1. Use case diagram (Mais abrangente possível)
+    • prioridade 1: casos de uso obrigatórios que vai começar por implementar
+    • prioridade 2: casos de uso que implementará numa segunda fase, se tiver tempo
+    • prioridade 3: casos e uso que fariam parte da aplicação final, mas que certamente não vai ter tempo de
+        implementar.
+
+3. Mockups
+
+4. Sprints: user stories
+
+5. Levar em conta e salientar "Boas práticas em programação PHP” (contido no Moodle)
+
+6. Levar em conta (deixar claro no relatório):
+    a. padrão de nomenclatura dos arquivos (ficheiros)
+    b. salientar a hierarquia de pastas (Por exemplo, poderá optar por organizar os ficheiros da sua aplicação por entidade de dados, por tipo
+de utilizador ou por tipo de página (apresentação e ação).)
+
+7. Elabore o diagrama de arquitetura da aplicação como sugerido no final do documento SIE PHP
+    boasPráticas v1.pdf. Este diagrama não deve representar apenas as interações ao nível da interface do
+    utilizador (isto é, a navegação entre páginas), mas também as interações entre os scripts da aplicação, os
+    parâmetros passados entre scripts, e as variáveis de sessão que vai utilizar.
+
+
+Definição Moodle:
+
+4.1 . Relatório de conceção
+Este relatório deve incluir os seguintes elementos:
+ Breve descrição do tema e breve justificação da razão ou motivação pelo qual o escolheram [X]
+ Modelo de dados e modelo do processo suportado pela aplicação [X]
+ Lista organizada dos casos de uso [X]
+
+ Incluir breve descrição da aplicação e dos tipos de usuários [X] 
+
+ Diagrama de arquitetura da aplicação representando as interações entre os scripts da aplicação no servidor 
+    e a sua relação com as páginas na interface utilizador no browser. [X]
+
+ Breve descrição das fontes de informação a que recorreram, em particular as fontes das imagens []
+
+ Padrões a seguir na escrita do código (designação das páginas e variáveis, hierarquia de pastas, variáveis de sessão, etc.). []
+
+ Simulação das interfaces (mockup) e diagrama de navegação [] (Incompleto)
+
+ Templates dos vários tipos de páginas e os estilos (comandos CSS), sem grande detalhe (esse foi um dos objetivos do 1º trabalho) [] (Incompleto)

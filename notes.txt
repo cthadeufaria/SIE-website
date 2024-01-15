@@ -41,10 +41,14 @@ Este relatório deve incluir os seguintes elementos:
  Diagrama de arquitetura da aplicação representando as interações entre os scripts da aplicação no servidor 
     e a sua relação com as páginas na interface utilizador no browser. [X]
 
- Breve descrição das fontes de informação a que recorreram, em particular as fontes das imagens []
-
  Padrões a seguir na escrita do código (designação das páginas e variáveis, hierarquia de pastas, variáveis de sessão, etc.). []
 
- Simulação das interfaces (mockup) e diagrama de navegação [] (Incompleto)
+ Simulação das interfaces (mockup) e diagrama de navegação [X] (Incompleto)
+    Incluir páginas de:
+        login [X]
+        gestão de base de dados [X]
+        relatório de pedidos [X]
+
+ Breve descrição das fontes de informação a que recorreram, em particular as fontes das imagens []
 
  Templates dos vários tipos de páginas e os estilos (comandos CSS), sem grande detalhe (esse foi um dos objetivos do 1º trabalho) [] (Incompleto)
